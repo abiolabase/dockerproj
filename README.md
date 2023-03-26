@@ -1,3 +1,5 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/abiolabase/dockerproj/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/abiolabase/dockerproj/tree/main)
+
 # Project Overview
 > In this project, I applied the skills that I acquired in Udacity Devops Nanodegree course to operationalize a Machine Learning Microservice API.
 
@@ -18,5 +20,25 @@
 - Deployed a container using Kubernetes and made a prediction
 - Uploaded a complete Github repo with CircleCI to indicate that your code has been tested
 
+## Instructions for Running the Project.
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/abiolabase/dockerproj/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/abiolabase/dockerproj/tree/main)
+- bash resize.sh
+
+- cd dockerproj
+
+- python3 -m venv dockerproj
+
+- source ~/.dockerproj/bin/activate
+
+- bash run_docker.sh
+
+- bash upload_docker.sh
+
+- bash run_kubernetes.sh
+
+## Files
+
+- Dockerfile: This is used to automate the creation of container
+- Makefile: This is used in setting up the environment
+- app.py: The main application
+- Requirements.txt: Used to list required modules and dependencies

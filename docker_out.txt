@@ -9,3 +9,12 @@
 [2023-03-26 20:23:54,869] INFO in app: Prediction Values 
 [20.35373177134412]
 172.17.0.1 - - [26/Mar/2023 20:23:54] "POST /predict HTTP/1.1" 200 -
+
+
+(.dockerproj) voclabs:~/environment/dockerproj (main) $ bash make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
